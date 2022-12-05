@@ -1,0 +1,17 @@
+# After installing Miniconda3,
+# Run following command:
+# conda env create --file environment.yml 
+# Finally, Run:
+# conda activate setup
+# Play around!
+
+name: setup
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - jupyter
+prefix: ~envs/setup
